@@ -1,16 +1,15 @@
 body{
+    background: url(../img/requisitos-agente-BCP.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;    
-}
-
-img-style{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 form{
@@ -59,7 +58,7 @@ input{
  }
 
  .form-txt a{
-    color:#76b28e;
+    color:#10024d;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
@@ -70,13 +69,13 @@ input{
     color:#FFFFFF;
     border: 0;
     border-radius: 25px;
-    background-color: #51D94C;
-    box-shadow: 0 0 20px rgba(25, 254, 0, 0.4);
+    background-color: #5a4cd9;
+    box-shadow: 0 0 20px rgba(62, 14, 175, 0.4);
     cursor: pointer;
  }
 
  .btn:hover{
-    background-color: #50E04B;
+    background-color: #0c0c0c;
  }
 
  @media(max-widht:991px){
